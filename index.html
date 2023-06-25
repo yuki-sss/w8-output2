@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1>Hello World</h1>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form">Sign in to your account</div>
+      <form action="#">
+        <div>
+          <label for="email">Your email</label>
+          <input type="text" class="email" name="your-email" />
+        </div>
+        <div>
+          <label for="pass">Password</label>
+          <input type="text" class="pass" name="your-password" />
+        </div>
+        <input type="submit" class="button" value="Sign in" />
+        <div class="sign">
+          Don't have an account yet? <a href="#" target="_blank">Sign in</a>
+        </div>
+      </form>
+    </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
